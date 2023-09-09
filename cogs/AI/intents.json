@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hey, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye!",
+        "See you later!",
+        "See you soon!",
+        "Goodbye!"
+      ],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day!",
+        "Bye! Come back again soon",
+        "Goodbye! Hope to see you again!",
+        "Bye! Come back if you need any help"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "Ok"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the tuition fee?",
+        "How much does is cost per year to study at Skyline?",
+        "How much do I need to pay to study at Skyline?",
+        "How much does studying at Skyline cost?"
+      ],
+      "responses": [
+        "This is a chart of our tuition fees for each grade per year:\n  Grade 1+2 : 37,380,00 VND\n  Grade 3+4+5 : 40,500,000 VND\n  Grade 6 : 44,000,000 VND\n  Grade 7 : 48,500,000 VND\n  Grade 8 : 51,000,000 VND\n  Grade 9 : 57,255,000 VND\n  Grade 10 : 63,000,000 VND\n  Grade 11 : 71,000,000 VND\n  Grade 12 : 79,000,000 VND"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can I pay?",
+        "What form of payment can I use"
+      ],
+      "responses": [
+        "We accept cash, VISA, Mastercard and Paypal and all national cards",
+        "We accept cash, most major credit cards and all national cards"
+      ]
+    },{
+      "tag": "payments_time",
+      "patterns": [
+        "When can I pay?",
+        "When do I pay?",
+        "Do I have to pay before the year starts?",
+        "Can I during the year?"
+      ],
+      "responses": [
+        "You can pay before the year starts or during but you will get a discount if you pay early"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "What does it take to get in Skyline?",
+        "What are the requirements for Skyline?",
+        "Do I need to have good academic performance to get in?",
+        "How do I get in Skyline?",
+        "What are the admission requirements?",
+        "What is Skyline's requirements"
+      ],
+      "responses": [
+        "There are 3 mains requirements to enter :\n - Passing the entry exams organized by the school\n - Complete all fees according to school regulations\n - Completing the full admission procedures : \n   * Your records should include :\n     + Original application for admission (according to school form)\n     + Curriculum vitae (according to school form)\n     + Health records and vaccinations (according to school form)\n     + Service registration form (according to school form)\n     + Copy of birth certificate\n     + Copy of household registration or passport copy (for foreigners)\n     + Transcripts\n     + Certificate of completion of the elementary program (for secondary schools)\n     + A temporary junior high school diploma or certificate of graduation from junior high school (for high school)\n     + Letter of recommendation (for transfer students)\n     + Education and training contract between SKY-LINE and signed parents (according to school form)\n     + 4 photos 4x6 \n\n Besides that there are additional conditions which vary from ages:\n   * Preschool and Grade 1 :  Depends on the age specified by the Ministry of Education and Training\n   * Grade 2-12 : \n     + Must have good academical performance and conduct or above\n     + Grade 6: Must have certificate of completion of the Primary program\n     + Grade 10: High school diploma or temporary graduation paper"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "What's the entry exam like?",
+        "Is there an entry exam?",
+        "How many subjects are there in the entry exam?"
+      ],
+      "responses": [
+        "Exams may vary from ages :\n * Preschool-Grade 1 :\n   - Health\n   - Hard skills\n   - Soft skills\n   - EQ\n   - English (applied to students who have learned English)\n * Grade 2-12 :\n    Health\n   - Hard skills\n   - Soft skills\n   - EQ\n   - Mathematics\n   - Literature\n   - English"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "How many campuses does the school have?",
+        "How many campuses are there?",
+        "Where is the school located at?",
+        "What is the school's location?",
+        "How can I contact the school?",
+        "How do I contact the school?",
+        "What are the school's contacts?"
+      ],
+      "responses": [
+      "Skyline school consist of 5 campuses and one SLS Centre :\n   - Sky-Line Riverside : Lot A2.4, Tran Dang Ninh, Hai Chau, Da Nang  (+84) 236. 3787.777 - 3787.778 - 3787.779\n   - Sky-Line Central : 48 Nguyen Du, Thach Thang, Hai Chau, Da Nang  (+84) 236. 3568.777 - 222.5555\n   - Sky-Line International : Lot A2 Duong Tran Dang Ninh, Hai Chau, Da Nang  (+84) 236. 3787.779 - 3719.038\n   - Sky-Line Hill : Ha My Dong A, Dien Ban, Quang Nam  (+84) 235. 3751.777 - 3751.555\n   - Sky-Line Beach : 199 Tran Anh Tong, Thanh Khe, Da Nang  (+84) 236. 3669.777 - 3669.555\n   - SLS Centre : 48 Nguyen Du, Thach Thang, Hai Chau, Da Nang  (+84) 94.104.80.08"
+      ]
+    }
+  ]
+}
